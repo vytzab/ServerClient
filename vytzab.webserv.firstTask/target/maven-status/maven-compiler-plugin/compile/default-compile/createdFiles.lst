@@ -1,0 +1,9 @@
+lt\viko\eif\vytzab\serverClient\utilities\Transfer.class
+lt\viko\eif\vytzab\serverClient\Client.class
+lt\viko\eif\vytzab\serverClient\utilities\Generator.class
+lt\viko\eif\vytzab\serverClient\utilities\SchemaChecker.class
+lt\viko\eif\vytzab\serverClient\utilities\Transformer.class
+lt\viko\eif\vytzab\serverClient\entity\Record.class
+lt\viko\eif\vytzab\serverClient\Server.class
+lt\viko\eif\vytzab\serverClient\entity\Nba.class
+lt\viko\eif\vytzab\serverClient\entity\Player.class
