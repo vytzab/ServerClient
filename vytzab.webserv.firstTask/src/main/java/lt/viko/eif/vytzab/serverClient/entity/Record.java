@@ -1,5 +1,8 @@
 package lt.viko.eif.vytzab.serverClient.entity;
 
+/**
+ * Represents a player's record
+ */
 public class Record {
 
 	private int gamesPlayed;
@@ -35,8 +38,8 @@ public class Record {
 
 	@Override
 	public String toString() {
-		return ("\n\tGames played : " + gamesPlayed + "\n\tAll time wins : " + wins
-				+ "\n\tAll time losses : " + losses);
+		return ("\n\tGames played : " + gamesPlayed + "\n\tAll time wins : " + wins + "\n\tAll time losses : "
+				+ losses);
 	}
 
 }

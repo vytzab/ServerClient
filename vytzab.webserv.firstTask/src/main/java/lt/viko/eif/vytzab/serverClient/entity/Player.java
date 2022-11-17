@@ -7,6 +7,9 @@ import javax.xml.bind.annotation.XmlElementWrapper;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Represents a player
+ */
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Player {
 

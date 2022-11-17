@@ -7,7 +7,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.List;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import lt.viko.eif.vytzab.serverClient.entity.Nba;
@@ -20,15 +19,10 @@ import lt.viko.eif.vytzab.serverClient.entity.Player;
 class GeneratorTest {
 
 	/**
-	 * @throws java.lang.Exception
-	 */
-	@BeforeEach
-	void setUp() throws Exception {
-	}
-
-	/**
 	 * Test method for
 	 * {@link vytzab.webserv.firstTask.Utilities.Generator#createNba()}.
+	 * 
+	 * Initializes a <Nba> POJO object. Checks if it is not null.
 	 */
 	@Test
 	final void testCreateNba() {
@@ -39,6 +33,8 @@ class GeneratorTest {
 	/**
 	 * Test method for
 	 * {@link vytzab.webserv.firstTask.Utilities.Generator#createPlayerList()}.
+	 * 
+	 * Initializes a list of <Player>. Checks if the list is not null.
 	 */
 	@Test
 	final void testCreatePlayerList() {

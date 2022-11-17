@@ -20,6 +20,8 @@ class ServerTest {
 	Client client = new Client();
 
 	/**
+	 * Starts the server on port 6666.
+	 * 
 	 * @throws java.lang.Exception
 	 */
 	@BeforeEach
@@ -29,6 +31,7 @@ class ServerTest {
 
 	/**
 	 * Test method for {@link lt.viko.eif.vytzab.serverClient.Server#start(int)}.
+	 * Checks if the server socket is bound to a port.
 	 * 
 	 * @throws IOException
 	 */
@@ -39,7 +42,9 @@ class ServerTest {
 	}
 
 	/**
-	 * Test method for {@link lt.viko.eif.vytzab.serverClient.Server#stop()}.
+	 * Test method for {@link lt.viko.eif.vytzab.serverClient.Server#stop()}. Starts
+	 * a connection with the client. Accepts the connection, closes it and checks if
+	 * the client socket and server socket are closed.
 	 */
 	@Test
 	final void testStop() {
@@ -62,6 +67,7 @@ class ServerTest {
 	/**
 	 * Test method for
 	 * {@link lt.viko.eif.vytzab.serverClient.Server#sendFile(java.lang.String)}.
+	 * Attempts to send a file and checks if it was created.
 	 */
 	@Test
 	final void testSendFile() {

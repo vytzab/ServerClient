@@ -4,10 +4,13 @@ import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * Represents a league of players
+ */
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Nba {
-
 	@XmlElementWrapper(name = "players")
 	@XmlElement(name = "player")
 	private List<Player> players = new ArrayList<>();

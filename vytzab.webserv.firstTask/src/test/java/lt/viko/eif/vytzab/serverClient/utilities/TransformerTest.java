@@ -11,7 +11,6 @@ import java.util.Scanner;
 
 import javax.xml.bind.JAXBException;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import lt.viko.eif.vytzab.serverClient.entity.Nba;
@@ -23,15 +22,10 @@ import lt.viko.eif.vytzab.serverClient.entity.Nba;
 class TransformerTest {
 
 	/**
-	 * @throws java.lang.Exception
-	 */
-	@BeforeEach
-	void setUp() throws Exception {
-	}
-
-	/**
 	 * Test method for
 	 * {@link vytzab.webserv.firstTask.Utilities.Transformer#transformToXML(java.lang.String, java.lang.Object)}.
+	 * 
+	 * Transforms data from the POJO file to XML objects.
 	 * 
 	 * @throws JAXBException
 	 * @throws FileNotFoundException
@@ -55,6 +49,8 @@ class TransformerTest {
 	/**
 	 * Test method for
 	 * {@link vytzab.webserv.firstTask.Utilities.Transformer#transformToPOJO(java.lang.String, java.lang.Class)}.
+	 * 
+	 * Transforms data from the XML file to POJO objects.
 	 * 
 	 * @throws JAXBException
 	 */

@@ -7,6 +7,9 @@ import lt.viko.eif.vytzab.serverClient.entity.Nba;
 import lt.viko.eif.vytzab.serverClient.entity.Player;
 import lt.viko.eif.vytzab.serverClient.entity.Record;
 
+/**
+ * Class used to generate a POJO league
+ */
 public class Generator {
 
 	public static Nba createNba() {

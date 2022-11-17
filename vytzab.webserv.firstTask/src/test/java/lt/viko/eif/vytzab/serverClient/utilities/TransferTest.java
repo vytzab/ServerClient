@@ -23,6 +23,8 @@ class TransferTest {
 	Client client = new Client();
 
 	/**
+	 * Starts up the server on port 6666. Connects the client.
+	 * 
 	 * @throws java.lang.Exception
 	 */
 	@BeforeEach
@@ -32,6 +34,8 @@ class TransferTest {
 	}
 
 	/**
+	 * Stops the connection from client's side. Stops the server.
+	 * 
 	 * @throws java.lang.Exception
 	 */
 	@AfterEach
@@ -43,6 +47,8 @@ class TransferTest {
 	/**
 	 * Test method for
 	 * {@link vytzab.webserv.firstTask.Utilities.Transfer#sendFile(java.lang.String, java.io.BufferedOutputStream)}.
+	 * 
+	 * Checks if the file is sent.
 	 * 
 	 * @throws Exception
 	 */
@@ -71,6 +77,8 @@ class TransferTest {
 	/**
 	 * Test method for
 	 * {@link vytzab.webserv.firstTask.Utilities.Transfer#receiveFile(java.io.BufferedInputStream, java.io.BufferedOutputStream)}.
+	 * 
+	 * Checks if the file is received.
 	 */
 	@Test
 	final void testReceiveFile() {
